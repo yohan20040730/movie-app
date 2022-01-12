@@ -1,0 +1,97 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    background-image: linear-gradient(rgb(52, 0, 100),rgb(96, 96, 228), rgb(175, 243, 158));
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    border-bottom:2px solid ;
+  }
+  nav h1 {
+    padding-top: 15px;
+    padding-left: 30px;
+    font-size: 30px;
+  }
+  .nav {
+    display: flex;
+    width: 450px;
+  }
+  .inside {
+    display: flex;
+    align-items: center;
+  }
+
+  .home, .btw, .contact{
+    border-radius: 15px;
+}
+h3 {
+  padding: 20px;
+}
+h3:hover {
+  background-image:radial-gradient(darkblue,purple);
+}
+a {
+  color: rgb(243, 230, 255);
+}
+/* .home {
+  background-image: linear-gradient(darkblue, purple);
+} */
+
+/* banner */
+.banner {
+  display: flex;
+  height: 76vh;
+  background-image: url(axtone-1641969751257-7302.jpg);
+  background-size: cover;
+  ba
+}
+.wc {
+  color: aqua;
+  padding: 50px;
+  margin: auto;
+  border: 1px solid;
+  border-radius: 30px;
+  background-color: rgba(30, 61, 61, 0.356);
+}
+
+/* about */
+.about {
+  padding: 20px;
+  color: rgb(243, 230, 255);
+  background-image: linear-gradient(rgb(106, 71, 121), black);
+  text-align: center;
+}
+p {
+  margin-top: 10px;
+}
+
+/* card */
+.container {
+  display: flex;
+  height: 90vh;
+}
+.card {
+  margin: auto;
+  height: 350px;
+  width: 250px;
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0 10px;
+}
+img {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 20px;
+}
+.card h1 {
+  margin-bottom: 50px;
+}
