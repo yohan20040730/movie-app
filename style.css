@@ -24,6 +24,13 @@
   background-size: cover;
 }
 
+.mk{
+  display: flex;
+  height: 99vh;
+  background-image: url(pic/mortal-kombat-1.jpg);
+  background-size: cover;
+}
+
 .border {
   padding: 20px;
   color: rgb(243, 230, 255);
